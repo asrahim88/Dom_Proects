@@ -1,0 +1,18 @@
+.container {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    font-size: 28px;
+    margin: 5px;
+    width: 70px;
+    cursor: pointer;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
