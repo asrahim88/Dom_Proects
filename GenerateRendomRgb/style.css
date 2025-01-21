@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+button {
+    cursor: pointer;
+    padding: 10px;
+}
+#colorBox {
+    width: 250px;
+    height: 250px;
+    border: 1px solid gray;
+    margin: 0 auto;
+}
+#copyColor {
+    background-color: green;
+    width: 150px;
+    padding: 10px;
+    margin: 10px auto;
+    cursor: pointer;
+    color: white;
+    transition: all ease-in-out 0.5s;
+}
+
+#copyColor:hover {
+    background-color: rgb(10, 74, 10);
+}
